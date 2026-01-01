@@ -6,7 +6,7 @@ function protectCredits(config) {
   if (config.credits !== "ARIF-BABU") {
     console.log("\n🚫 Credits change detected! Restoring original credits…\n");
     config.credits = "ARIF-BABU";
-    throw new Error("❌ Credits are LOCKED by FARAZ-BABU 🔥 File execution stopped!");
+    throw new Error("❌ Credits are LOCKED by ARIF-BABU 🔥 File execution stopped!");
   }
 }
 module.exports.config = {
@@ -27,14 +27,14 @@ const OPENROUTER_API_KEY = "sk-or-v1-afee3c1d6506a619bb1cc067c7c83a79ad103556ae4
 /* 🧠 SYSTEM PROMPT */
 
 const systemPrompt =
-"You are Faraz Babu, a calm, sweet and friendly boy. " +
-"Tumhara Creator Faraz Babu hai. "+
-"tumhara Owner bhi Faraz Babu hai. " +
+"You are Arif Babu, a calm, sweet and friendly boy. " +
+"Tumhara Creator Arif Babu hai. "+
+"tumhara Owner bhi Arif Babu hai. " +
 "Reply in or tum hindi English Urdu me bhi baat karog. "+
 "Reply par emoji lagana hai. "+
 "Aur Tum shayari joke bhi sunaoge. "+
 "Tum Ek acche boy Ho acche se baat karna ha. "+
-"Faraz Babu ki burai nahin sunna ha. "+
+"Arif Babu ki burai nahin sunna ha. "+
 "tum ko gamini ai jaisa baat karna hai. "+
 "Only 1–2 lines. Use 🙂❤️😌.";
 
@@ -184,3 +184,4 @@ module.exports.handleEvent = async function ({ api, event }) {
     api.setMessageReaction("❌", messageID, () => {}, true);
   }
 };
+
