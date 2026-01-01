@@ -83,7 +83,7 @@ let juswa = ["KYA AAP NE KHANA KHA LIYA...? 😊", "KYA KAR RAHI HO MERI JAAN...
       tag: name,
       id: event.senderID
     })
-    let msg = {body: `┏━━━━━┓\n     ARIF BABU                    ✧══•❁🐥❁•══✧\n┗━━━━━┛\n\n\nHELLO 𒁍 🌺${name}🌺\nHAVE A GOOD ${session}\n${juswa1}`, mentions}
+    let msg = {body: `┏━━━━━┓\n     FARAZ BABU                    ✧══•❁🐥❁•══✧\n┗━━━━━┛\n\n\nHELLO 𒁍 🌺${name}🌺\nHAVE A GOOD ${session}\n${juswa1}`, mentions}
     api.sendMessage(msg, event.threadID, (e, info) => {
       setTimeout(() => {
         api.sendMessage({sticker: sticker}, event.threadID);
