@@ -55,7 +55,7 @@ module.exports.handleEvent = async ({ event, api }) => {
 ✰ DAY ➪ ${day}
 
 ༺══─────────══༻
-MADE BY ❤️‍🔥 ARIF BABU
+MADE BY ❤️‍🔥 FARAZ BABU
 `;
 
   return api.sendMessage(msg, threadID, messageID);
